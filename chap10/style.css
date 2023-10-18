@@ -1,0 +1,30 @@
+.btn1 {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  color: #000;
+  cursor: pointer;
+}
+
+.target {
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  background: orange;
+  top: 150px;
+  transition: all 2s;
+}
+
+.target.state-show {
+  width: 500px;
+}
+
+.ui {
+  position: absolute;
+  bottom: 500px;
+}
+
+.log {
+  border: 1px solid #444;
+  padding: 0 0.5em;
+}
